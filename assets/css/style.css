@@ -23,9 +23,11 @@ h1 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 10px;
 }
 
 #menu {
+    font-family: 'Roboto Mono', monospace;
     letter-spacing: 3px;
     font-size: 100%;
 }
@@ -60,7 +62,7 @@ ul {
 }
 ul li {
     display: inline-block;
-    margin-left: 1.1rem;
+    margin: 10px 5px;
     }
 ul li a {
     text-decoration: none;
