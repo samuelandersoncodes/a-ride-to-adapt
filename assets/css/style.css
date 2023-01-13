@@ -29,6 +29,30 @@ h1 {
     letter-spacing: 3px;
     font-size: 100%;
 }
+#cycle-outer {
+    clear: both;
+    width: 100%;
+        height: 500px;
+        overflow: hidden;
+}
+#cycle-image {
+        background:url('../images/cycle.jpeg') no-repeat;
+        background-size: 100%;
+        height: 600px;
+        margin:0 auto;
+        animation-name : cycle-zoom;
+        animation-duration: 4s;
+        animation-fill-mode:forwards;
+}
+
+@keyframes cycle-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
 ul {
     list-style: none;
     float: right;
