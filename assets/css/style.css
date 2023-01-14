@@ -34,13 +34,14 @@ h1 {
 #cycle-outer {
     clear: both;
     width: 100%;
-        height: 500px;
+        height: 540px;
         overflow: hidden;
 }
 #cycle-image {
         background:url('../images/cycle.jpeg') no-repeat;
-        background-size: 100%;
-        height: 600px;
+        background-size: cover;
+        height: 540px;
+        width: 100%;
         margin:0 auto;
         position: relative;
         animation-name : cycle-zoom;
@@ -49,20 +50,20 @@ h1 {
 }
 #cover-text {
     
-    background: rgba(175, 175, 107, 0.247);
+    background: rgba(175, 175, 107, 0.438);
     color:white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size:120% ;
-    letter-spacing: 4px;
+    font-size:140% ;
+    letter-spacing: 5px;
     position: absolute;
-    width: 20%;
-    height: 100px;
-    bottom: 230px;
+    width: 400px;
+    height: 130px;
+    bottom: 190px;
     right: 20px;
     border-radius: 3px;
-    overflow: hidden;
+    
 }
 
 @keyframes cycle-zoom {
