@@ -70,36 +70,47 @@ h1 {
 
 }
 
-#reasons h4 {
+#reasons h3{
     font-family: 'Roboto', sans-serif;
     font-size: 160%;
     word-spacing: 8px;
     text-align: center;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 #reasons div {
     position: relative;
     display: inline-block;
 }
-
+.reason h4{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.reason {
+    font-family: 'Roboto Mono', monospace; 
+    line-height: 30px; 
+    
+}
 .surfing {
     float: left;
     background-color:#2626252c;
-    height: 300px;
+    height: 380px;
     width: 30%;
     margin-right:60px;
     margin-left:20px;
     top: 35px;
+    text-align: left;
 }
 
 .cycling {
     float: right;
     margin: 0;
     background-color: #2626253b;
-    height: 300px;
+    height: 380px;
     width: 30%;
     margin-right:20px;
     top: 35px;
+    text-align: left;
 }
 
 
@@ -109,6 +120,7 @@ h1 {
     height: 300px;
     width: 30%;
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -122,17 +134,17 @@ h1 {
     }
 }
 
-ul {
+nav ul {
     list-style: none;
     float: right;
     margin-left: 1.1rem;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
     margin: 10px 5px;
 }
 
-ul li a {
+#menu li a {
     text-decoration: none;
 }
