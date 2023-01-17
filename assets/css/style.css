@@ -55,7 +55,7 @@ h1 {
 #cover-text {
 
     background: rgba(175, 175, 107, 0.438);
-    color: white;
+    color: #fafafa;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -67,10 +67,9 @@ h1 {
     bottom: 190px;
     right: 20px;
     border-radius: 3px;
-
 }
 
-#ride h3{
+#ride h3 {
     clear: both;
     height: 35px;
     font-family: 'Roboto', sans-serif;
@@ -81,15 +80,16 @@ h1 {
     text-align: center;
 }
 
-.reason h4{
-    
+.reason h4 {
+
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 120%;
 }
+
 .reason {
-    font-family: 'Roboto Mono', monospace; 
-    line-height: 25px; 
+    font-family: 'Roboto Mono', monospace;
+    line-height: 25px;
     font-weight: bold;
     font-size: 120%;
 }
@@ -105,7 +105,7 @@ h1 {
 
 .issues {
     display: flex;
-    background-color:#262625b0;
+    background-color: #262625b0;
     height: 300px;
     width: 22%;
     flex-grow: 2;
@@ -113,49 +113,49 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin: 0;  
-  font-size: 100%;
-  font-weight: bolder;
-  word-spacing: 10px;
-  color: white;
-  z-index: 3;
+    margin: 0;
+    font-size: 100%;
+    font-weight: bolder;
+    word-spacing: 10px;
+    color: white;
+    z-index: 3;
 }
 
 .language {
     display: flex;
-    background-color:#26262573;
+    background-color: #26262573;
     height: 420px;
     width: 32%;
     flex-grow: 2;
     align-items: center;
     flex-direction: column;
-    margin: 50px 0 20px 40px;  
+    margin: 50px 0 20px 40px;
     font-weight: bolder;
     z-index: 2;
     line-height: 32px;
     word-spacing: .1px;
     padding-left: 24px;
-    color:white;
+    color: white;
 }
 
 
 .guide {
-    
-    background-color:#26262573;
+
+    background-color: #26262573;
     height: 420px;
     width: 32%;
-    display: flex; 
+    display: flex;
     flex-grow: 2;
     align-items: center;
     flex-direction: column;
     margin: 50px 40px 20px 0;
-    font-weight: bolder; 
-    z-index: 2; 
+    font-weight: bolder;
+    z-index: 2;
     line-height: 32px;
     word-spacing: 1.5px;
     padding-left: 24px;
-    color:white;
-    
+    color: white;
+
 }
 
 
@@ -182,4 +182,74 @@ nav ul li {
 
 #menu li a {
     text-decoration: none;
+}
+
+#activities {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    border: .5px solid #26262513;
+    height: 800px;
+    width: auto;
+    background: url("../images/beachwalk.jpg") round;
+}
+
+#activities h5 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 170%;
+    color: #262625;
+    margin-top: 12px;
+    word-spacing: 8px;
+}
+
+#saturdays {
+    float: right;
+    margin: 320px 50px 0 10px;
+}
+
+#sundays {
+    margin: 320px 0 0 50px;
+}
+
+#saturdays h6 {
+    margin: 60px 110px 10px 110px ;
+}
+
+#sundays h6 {
+    margin: 60px 120px 10px 120px;
+}
+
+.days {    
+    border: .1px solid #26262544;
+    height: 400px;
+    width: 400px;
+    background-color: #fafafa79;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 2;
+}
+
+.time {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 140%;
+    letter-spacing: 5px;
+    color: #262625e1;
+}
+
+.days h6 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+    font-size: 170%;
+}
+
+.days ol li {
+    list-style: none;
+    line-height: 37px;
+    font-size: 140%;
+    font-weight: bolder;
+    color: #262625;
 }
