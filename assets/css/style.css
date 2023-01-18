@@ -253,3 +253,59 @@ nav ul li {
     font-weight: bolder;
     color: #262625;
 }
+
+footer {
+    background-color:rgba(105, 90, 205, 0.377) ;
+    height: 250px;
+    margin: 0;
+    clear: both;
+    padding-top: 30px;
+}
+
+#contact {
+    text-align: center;
+    color: #262625f8;
+    font-size: 140%;
+    font-weight: bolder;
+    padding: 15px 0 25px;
+    margin-bottom: 15px;
+    line-height: 35px;
+}
+
+#social-network li{
+    display: inline-block;
+    letter-spacing: 65px;
+    
+}
+
+#social-network {
+    text-align: center;
+    color: #26262544;
+    font-size: 140%;
+    margin-bottom: 25px;
+}
+
+#social-network i {
+    color: #262625fd;
+}
+
+#copyright {
+    text-align: center;
+    color:#fafafa;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+#map {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+}
+#center h6 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 120%;
+}
+#center {
+    background-color: rgba(105, 90, 205, 0.11);
+    margin: 0;
+}
