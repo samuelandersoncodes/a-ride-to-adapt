@@ -191,7 +191,7 @@ nav ul li {
     border: .5px solid #26262513;
     height: 800px;
     width: auto;
-    background: url("../images/beachwalk.jpg") round;
+    background: #262625e1 url("../images/beachwalk.jpg") round;
 }
 
 #activities h5 {
@@ -309,3 +309,11 @@ footer {
     background-color: rgba(105, 90, 205, 0.11);
     margin: 0;
 }
+
+#about-background {
+    background: #262625e5 url("../images/beachsit.jpg") round; 
+    margin: 0;
+    height: 800px;
+    clear: both;
+}
+
