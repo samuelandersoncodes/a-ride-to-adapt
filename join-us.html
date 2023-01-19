@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A Ride to Adapt facilitates the adaptation process of foreigners in Berlin, Germany through sports">
+    <meta name="keywords"
+        content="crosscultural adaptation, new environment, foreigners in Berlin, sports, cycling, surfing, motorsports">
+    <meta name="author" content="Samuel Anderson">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>join-us</title>
+</head>
+
+<body>
+    <header id="about-header">
+        <a href="index.html">
+            <h1 id="logo">A Ride to Adapt</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <p>About</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="join-us.html">
+                        <p>Join us</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="join-us">
+        <div id="join">
+            <form class="join-us-form" action="https://formdump.codeinstitute.net/" method="post">
+                <h2>Join the ride!<i class="fa-solid fa-person-biking"></i></h2>
+                <br>
+                <label for="fname">First Name</label>
+                <input type="text" name="first_name" class="text-input" id="fname" required>
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="last_name" class="text-input" id="lname" required>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email_address" class="text-input" id="email" required>
+                <br>
+                <label for="sports">Sport type</label>
+                <input type="text" name="sport_type" id="sports" class="text-input"
+                    placeholder="specific sporting activity of interest" required>
+                <br>
+                <label for="permanent">Permanent Membership</label>
+                <input type="radio" name="membership_preference" id="permanent" class="membership" value="permanent"
+                    required>
+                <br>
+                <label for="temporary">Temporary Membership</label>
+                <input type="radio" name="membership_preference" id="temporary" class="membership" value="temporary">
+                <br>
+                <label for="one-time">One-Time Membership</label>
+                <input type="radio" name="membership_preference" id="one-time" class="membership" value="one-time">
+                <br>
+                <input type="submit" value="ride with us!" class="join-button">
+
+            </form>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/b6d3775a16.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
