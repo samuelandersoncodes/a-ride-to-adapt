@@ -311,9 +311,26 @@ footer {
 }
 
 #about-background {
-    background: #262625e5 url("../images/beachsit.jpg") round; 
+    background:#262625 url("../images/beachsit.jpg") round; 
     margin: 0;
-    height: 800px;
+    min-height: 800px;
     clear: both;
+}
+
+#about-background p {
+    color: #fafafa; 
+    font-size: 160%;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+#about-background div {
+    background: #2626257a;
+    min-height: 780px;
+    width: auto;
+    line-height: 40px;
+    padding:10px 20px 2px;
+    text-align: justify;
+    z-index: 2;
 }
 
