@@ -292,7 +292,7 @@ footer {
 
 #copyright {
     text-align: center;
-    color:#fafafa;
+    color:#262625;
     font-weight: bolder;
     margin-bottom: 5px;
 }
@@ -316,6 +316,7 @@ footer {
     margin: 0;
     min-height: 800px;
     clear: both;
+    overflow: hidden;
 }
 
 #about-background p {
@@ -389,6 +390,11 @@ label {
     font-weight: bold;
     font-size: 100%;
 }
+
 ::placeholder {
 text-align: center;
+}
+
+#about-form-footer {
+    background: #fafafa;
 }
