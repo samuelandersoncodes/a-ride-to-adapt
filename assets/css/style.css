@@ -66,7 +66,7 @@ h1 {
     height: 130px;
     bottom: 190px;
     right: 20px;
-    border-radius:5px;
+    border-radius: 5px;
     z-index: 3;
 }
 
@@ -173,7 +173,7 @@ h1 {
 nav ul {
     list-style: none;
     float: right;
-    margin-left: 1.1rem;
+    margin-right: 1.3rem;
 }
 
 nav ul li {
@@ -181,8 +181,33 @@ nav ul li {
     margin: 10px 5px;
 }
 
+#menu a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    width: 95%;
+    height: 1.6px;
+    background-color: #26262575;
+}
+
+nav a:hover::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fafafa;
+    transition: ease-in-out 60ms;
+}
+
 #menu li a {
     text-decoration: none;
+    color: #262625ee;
+    font-weight: bold;
+    font-size: 110%;
 }
 
 #activities {
@@ -215,14 +240,14 @@ nav ul li {
 }
 
 #saturdays h6 {
-    margin: 60px 110px 10px 110px ;
+    margin: 60px 110px 10px 110px;
 }
 
 #sundays h6 {
     margin: 60px 120px 10px 120px;
 }
 
-.days {    
+.days {
     border: .1px solid #26262544;
     height: 400px;
     width: 400px;
@@ -256,7 +281,7 @@ nav ul li {
 }
 
 footer {
-    background-color:rgba(105, 90, 205, 0.377) ;
+    background-color: rgba(105, 90, 205, 0.377);
     height: 250px;
     margin: 0;
     clear: both;
@@ -273,10 +298,10 @@ footer {
     line-height: 35px;
 }
 
-#social-network li{
+#social-network li {
     display: inline-block;
     letter-spacing: 65px;
-    
+
 }
 
 #social-network {
@@ -292,27 +317,30 @@ footer {
 
 #copyright {
     text-align: center;
-    color:#262625;
+    color: #262625;
     font-weight: bolder;
     margin-bottom: 5px;
 }
+
 #map {
     height: 300px;
     width: 100%;
     margin: 0;
 }
+
 #center h6 {
     text-align: center;
     font-weight: bolder;
     font-size: 120%;
 }
+
 #center {
     background-color: rgba(105, 90, 205, 0.11);
     margin: 0;
 }
 
 #about-background {
-    background:#262625 url("../images/beachsit.jpg") round; 
+    background: #262625 url("../images/beachsit.jpg") round;
     margin: 0;
     min-height: 800px;
     clear: both;
@@ -320,7 +348,7 @@ footer {
 }
 
 #about-background p {
-    color: #fafafa; 
+    color: #fafafa;
     font-size: 160%;
     font-weight: bolder;
     z-index: 3;
@@ -331,7 +359,7 @@ footer {
     min-height: 780px;
     width: auto;
     line-height: 40px;
-    padding:10px 20px 2px;
+    padding: 10px 20px 2px;
     text-align: justify;
     z-index: 2;
 }
@@ -350,40 +378,41 @@ footer {
     height: 520px;
     width: 430px;
     line-height: 24px;
-    margin: 60px 35px 30px 35px ;
+    margin: 60px 35px 30px 35px;
     text-align: center;
     padding-top: 15px;
     border-radius: 4px;
 }
+
 .text-input {
-    background:transparent;
-    color:#fafafa;
-    width:90%;
-    height:25px;
-    margin:5px 0 20px;
-    border:1px solid #fafafa;
-    border-radius:2px;
+    background: transparent;
+    color: #fafafa;
+    width: 90%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color:#2626257c;
+    border-color: #2626257c;
 }
 
 .join-button {
-    margin-top:20px;
-    border-radius:5px;
-    padding:15px 30px;
-    text-align:center;
-    font-size:120%;
-    background-color:#fafafa;
-    color:#262625;
-    display:inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 120%;
+    background-color: #fafafa;
+    color: #262625;
+    display: inline-block;
 }
 
 .join-button:hover {
-    background-color:#2626258c;
+    background-color: #2626258c;
     color: #fafafa;
-} 
+}
 
 label {
     color: #262625;
@@ -392,7 +421,7 @@ label {
 }
 
 ::placeholder {
-text-align: center;
+    text-align: center;
 }
 
 #about-form-footer {
