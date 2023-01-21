@@ -86,6 +86,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 120%;
+    margin-bottom: 0;
 }
 
 .reason {
@@ -98,30 +99,28 @@ h1 {
 
 #flexbox-container {
     width: auto;
-    height: 600px;
-    max-height: 600px;
+    height: 650px;
     display: flex;
     padding: 0;
-    margin-top: 0;
-    background: #3a3a3a13 url("../images/water-horseride.jpg") round no-repeat fixed;
+    margin: 0;
+    background: #3a3a3a13 url("../images/water-horseride.jpg") round fixed;
 }
 
 .issues {
     display: flex;
     background-color: #262625b0;
-    height: 300px;
-    min-height: 280px;
-    width: 22%;
+    height: 280px;
+    width: 24%;
     flex-grow: 2;
     justify-content: center;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     margin: 0;
-    padding: 12px 12px;
-    font-size: 100%;
-    font-weight: bolder;
-    word-spacing: 10px;
+    padding: 6px 8px;
+    font-size: 105%;
+    font-weight: bold;
+    letter-spacing: .3px;
+    word-spacing: 4px;
     color: white;
     z-index: 3;
 }
@@ -129,18 +128,18 @@ h1 {
 .language {
     display: flex;
     background-color: #26262573;
-    height: 420px;
-    min-height: 400px;
+    height: 360px;
     width: 32%;
-    flex-grow: 2;
+    flex-grow: 3;
     align-items: center;
+    justify-content: safe;
     flex-direction: column;
-    margin: 50px 0 20px 40px;
-    font-weight: bolder;
+    margin: 40px 0 5px 35px;
+    font-weight: bold;
     z-index: 2;
-    line-height: 32px;
-    word-spacing: .1px;
-    padding-left: 24px;
+    line-height: 45px;
+    word-spacing: 1.5px;
+    padding: 5px 5px 6px 40px;
     color: white;
 }
 
@@ -148,23 +147,26 @@ h1 {
 .guide {
 
     background-color: #26262573;
-    height: 420px;
-    min-height: 400px;
+    height: 360px;
     width: 32%;
     display: flex;
-    flex-grow: 2;
+    flex-grow: 3;
     align-items: center;
+    justify-content: safe;
     flex-direction: column;
-    margin: 50px 40px 20px 0;
-    font-weight: bolder;
+    margin: 40px 35px 10px 0;
+    font-weight: bold;
     z-index: 2;
-    line-height: 32px;
+    line-height: 45px;
     word-spacing: 1.5px;
-    padding-left: 24px;
+    padding: 5px 5px 6px 30px;
     color: white;
 
 }
 
+.reason > p {
+    min-height: 0;
+}
 
 @keyframes cycle-zoom {
     from {
@@ -372,7 +374,7 @@ footer {
 
 #join-us {
     clear: both;
-    background: #262625dc url("../images/beachwalk-women.jpg") round;
+    background: #4088da57 url("../images/beachwalk-women.jpg") round;
     min-height: 800px;
     width: auto;
     padding: 20px 0 5px 30px;
@@ -433,3 +435,120 @@ label {
 #about-form-footer {
     background: #fafafa;
 }
+
+@media screen and (max-width:1390px) {
+
+    .language-guide {
+        padding:16px 25px 5px ;
+        line-height: 34px;
+    }
+    
+}
+
+@media screen and (max-width:1250px) {
+
+    .language-guide {
+        padding:6px 25px 2px ;
+        line-height: 30px;
+    }
+    #flexbox-container {
+        height: 700px;
+    }
+    
+}
+
+@media screen and (max-width:1090px) {
+    
+    .language-guide {
+        width: 38%;
+        height:450px;
+    }
+    .language {
+        margin: 20px 0 0 1px;
+    }
+    .guide {
+        margin:20px 1px 0 0 ;
+        line-height: 32px;
+    }
+       
+    .issues {
+        height: 330px;
+        width: 26%;
+    } 
+}
+
+@media screen and (max-width:855px) {
+    
+    .language-guide {
+        width: 38%;
+        height:550px;
+        margin-top: 10px;
+    }
+    .language {
+        margin-top: 30px;
+    }
+    .guide {
+        margin-top: 30px;
+       line-height: 32px;
+    }
+       
+    .issues {
+        height: 420px;
+        width: 26%;
+        padding-left:15px;
+    } 
+}
+
+@media screen and (max-width:945px) {
+    
+    #saturdays {
+        
+        margin: 280px 4px 0 1px;
+    }
+    
+    #sundays {
+        
+        margin: 280px 1px 0 4px;
+    }
+    #activities h5 {
+        margin-top:0;
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width:800px) {
+    
+    #saturdays {
+        
+        margin: 20px 4px 0 1px;
+    }
+    
+    #sundays {
+        
+        margin: 350px 1px 0 4px;
+    }
+    #activities h5 {
+        margin-top:0;
+        padding-top: 0px;
+    }
+    .days {
+        background-color: #fafafa transparent;
+        z-index: 3;
+    }
+    
+}
+
+@media screen and (max-width:757px) {
+  
+    .language-guide {
+       height:640px ;
+       width:36%;
+    }
+      
+    .issues {
+        height:500px ;
+        width:33%; 
+        padding:5px 4px 13px 1px;
+    }  
+    
+}
+
