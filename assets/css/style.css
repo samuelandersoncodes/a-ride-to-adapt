@@ -225,7 +225,7 @@ nav a:hover::before {
     border: .5px solid #26262513;
     height: 800px;
     width: auto;
-    background: #262625e1 url("../images/beachwalk.jpg") round;
+    background: #fafafa url("../images/beachwalk.jpg") round;
 }
 
 #activities h5 {
@@ -504,47 +504,6 @@ label {
     }
 }
 
-@media screen and (max-width:945px) {
-
-    #saturdays {
-
-        margin: 280px 4px 0 1px;
-    }
-
-    #sundays {
-
-        margin: 280px 1px 0 4px;
-    }
-
-    #activities h5 {
-        margin-top: 0;
-        padding-top: 0px;
-    }
-}
-
-@media screen and (max-width:800px) {
-
-    #saturdays {
-
-        margin: 20px 4px 0 1px;
-    }
-
-    #sundays {
-
-        margin: 350px 1px 0 4px;
-    }
-
-    #activities h5 {
-        margin-top: 0;
-        padding-top: 0px;
-    }
-
-    .days {
-        background-color: #fafafa transparent;
-        z-index: 3;
-    }
-
-}
 
 @media screen and (max-width:757px) {
 
@@ -574,3 +533,58 @@ label {
 
 
 }
+
+@media screen and (max-width:945px) {
+
+    #activities {
+        height: 680px;
+    }
+
+    #activities h5 {
+        margin-top: .2px;
+    }
+
+    .days {
+        height: 300px;
+        width: 300px;
+    }
+
+    .time {
+        margin-top: 30px;
+        letter-spacing: 3px;
+        font-weight: bolder;
+    }
+
+    .days h6 {
+        font-size: 120%;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+
+    .days ol li {
+
+        line-height: 30px;
+        font-size: 120%;
+    }
+
+    #sundays {
+        clear: left;
+        margin-left: 3px;
+    }
+
+    #saturdays {
+
+        margin-right: 3px;
+    }
+
+    #sundays h6 {
+        margin: 35px 0 0 1px;
+        padding-left: 15px;
+    }
+
+    #saturdays h6 {
+        margin: 35px 20px 0 0;
+        padding-left: 20px;
+    }
+}
+
