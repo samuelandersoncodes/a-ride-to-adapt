@@ -238,24 +238,15 @@ nav a:hover::before {
     word-spacing: 8px;
 }
 
-#saturdays {
-    float: right;
-    margin: 320px 50px 0 10px;
-}
-
-#sundays {
-    margin: 320px 0 0 50px;
-}
-
-#saturdays h6 {
-    margin: 60px 110px 10px 110px;
-}
-
-#sundays h6 {
-    margin: 60px 120px 10px 120px;
+#flexbox-activities {
+display: flex;
+flex-direction: row wrap;
+height: 750px;
+justify-content: space-around;
 }
 
 .days {
+    margin-top: 300px;
     border: .1px solid #26262544;
     height: 400px;
     width: 400px;
@@ -278,6 +269,7 @@ nav a:hover::before {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 8px;
     font-size: 170%;
+    margin: 85px 0 20px;
 }
 
 .days ol li {
@@ -534,57 +526,96 @@ label {
 
 }
 
-@media screen and (max-width:945px) {
+@media screen and (max-width:899px) {
 
     #activities {
-        height: 680px;
-    }
-
-    #activities h5 {
-        margin-top: .2px;
+        height: 640px;
     }
 
     .days {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
+        margin-top: 200px;
+    }
+
+    #activities h5 {
+        padding: .2px;
+        margin-top: 0;
+        font-weight: bolder;
+    }
+
+    #activities h6 {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width:795px) {
+
+    #activities {
+        height: 640px;
+    }
+
+    .days {
+        height: 320px;
+        width: 320px;
+        margin-top: 230px;
+    }
+
+    #activities h5 {
+        padding: .1px;
+        margin-top: 0;
+    }
+
+    #activities h6 {
+        margin-top: 55px;
     }
 
     .time {
-        margin-top: 30px;
-        letter-spacing: 3px;
-        font-weight: bolder;
-    }
-
-    .days h6 {
-        font-size: 120%;
-        letter-spacing: 2px;
-        font-weight: bolder;
+        letter-spacing:1px;
+        margin-bottom: 1px;
     }
 
     .days ol li {
+        line-height: 25px;
+        margin-top: 5px;
+        padding-top: 0;
+    }
+}
 
-        line-height: 30px;
-        font-size: 120%;
+@media screen and (max-width:690px) {
+
+    #activities {
+        height: 550px;
     }
 
-    #sundays {
-        clear: left;
-        margin-left: 3px;
+    .days {
+        height: 320px;
+        width: 320px;
+        margin-top: 140px;
     }
 
-    #saturdays {
-
-        margin-right: 3px;
+    #activities h5 {
+        padding: .1px;
+        margin-top: 0;
     }
 
-    #sundays h6 {
-        margin: 35px 0 0 1px;
-        padding-left: 15px;
+    #activities h6 {
+        margin-top: 55px;
     }
 
-    #saturdays h6 {
-        margin: 35px 20px 0 0;
-        padding-left: 20px;
+    .time {
+        letter-spacing:1px;
+        margin-bottom: 1px;
+    }
+
+    .days ol li {
+        line-height: 25px;
+        margin-top: 5px;
+        padding-top: 0;
+        word-spacing: .5px;
+    }
+    footer {
+        height: 275px;
     }
 }
 
