@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&family=Roboto:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&family=Roboto:wght@500&display=swap);
 
 * {
     margin: 0;
@@ -32,18 +32,18 @@ h1 {
     font-size: 100%;
 }
 
-#cycle-outer {
+#cover-outer {
     clear: both;
     width: 100%;
     height: 540px;
     overflow: hidden;
 }
 
-#cycle-image {
-    background: url('../images/cycling2.jpg') round;
+#cover-image {
+    background: url(../images/horseride.jpg) center center;
     background-size: cover;
     background-color: #262625;
-    height: 580px;
+    height: 550px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -103,12 +103,12 @@ h1 {
     display: flex;
     padding: 0;
     margin: 0;
-    background: #3a3a3a13 url("../images/water-horseride.jpg") round fixed;
+    background: #3a3a3a13 url(../images/cyclist.jpg) round fixed;
 }
 
 .issues {
     display: flex;
-    background-color: #262625b0;
+    background-color: #26262586;
     height: 280px;
     width: 24%;
     flex-grow: 2;
@@ -127,7 +127,7 @@ h1 {
 
 .language {
     display: flex;
-    background-color: #26262573;
+    background-color: #26262541;
     height: 360px;
     width: 32%;
     flex-grow: 3;
@@ -146,7 +146,7 @@ h1 {
 
 .guide {
 
-    background-color: #26262573;
+    background-color: #2626256b;
     height: 360px;
     width: 32%;
     display: flex;
@@ -169,6 +169,7 @@ h1 {
 }
 
 @keyframes cycle-zoom {
+
     from {
         transform: scale(1);
     }
@@ -176,6 +177,7 @@ h1 {
     to {
         transform: scale(1.1);
     }
+
 }
 
 nav ul {
@@ -225,7 +227,7 @@ nav a:hover::before {
     border: .5px solid #26262513;
     height: 800px;
     width: auto;
-    background: #fafafa url("../images/beachwalk.jpg") round;
+    background: #fafafa url(../images/activities.jpg) round;
 }
 
 #activities h5 {
@@ -239,10 +241,10 @@ nav a:hover::before {
 }
 
 #flexbox-activities {
-display: flex;
-flex-direction: row wrap;
-height: 750px;
-justify-content: space-around;
+    display: flex;
+    flex-direction: row wrap;
+    height: 750px;
+    justify-content: space-around;
 }
 
 .days {
@@ -340,11 +342,11 @@ footer {
 }
 
 #about-background {
-    background: #262625 url("../images/beachsit.jpg") round;
+    background: #262625 url(../images/about-image.jpg) top center no-repeat;
     margin: 0;
-    min-height: 800px;
+    height: 780px;
     clear: both;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 #about-background p {
@@ -364,9 +366,17 @@ footer {
     z-index: 2;
 }
 
+#join h2 {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
 #join-us {
     clear: both;
-    background: #4088da57 url("../images/beachwalk-women.jpg") round;
+    background: #4088da57 url(../images/beach.jpg) round;
     min-height: 800px;
     width: auto;
     padding: 20px 0 5px 30px;
@@ -374,7 +384,7 @@ footer {
 }
 
 #join {
-    background: #26262541;
+    background: #2626255b;
     height: 520px;
     width: 430px;
     line-height: 24px;
@@ -415,12 +425,13 @@ footer {
 }
 
 label {
-    color: #262625;
+    color: #fafafa;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 ::placeholder {
+    color: #fafafa;
     text-align: center;
 }
 
@@ -501,7 +512,6 @@ label {
 
     .reason {
         height: 250px;
-
     }
 
     .issues .points {
@@ -522,7 +532,6 @@ label {
         padding: 5px;
         border-radius: 4px;
     }
-
 
 }
 
@@ -547,6 +556,7 @@ label {
     #activities h6 {
         margin-top: 45px;
     }
+
 }
 
 @media screen and (max-width:795px) {
@@ -571,7 +581,7 @@ label {
     }
 
     .time {
-        letter-spacing:1px;
+        letter-spacing: 1px;
         margin-bottom: 1px;
     }
 
@@ -580,6 +590,7 @@ label {
         margin-top: 5px;
         padding-top: 0;
     }
+
 }
 
 @media screen and (max-width:690px) {
@@ -604,7 +615,7 @@ label {
     }
 
     .time {
-        letter-spacing:1px;
+        letter-spacing: 1px;
         margin-bottom: 1px;
     }
 
@@ -614,8 +625,9 @@ label {
         padding-top: 0;
         word-spacing: .5px;
     }
+
     footer {
         height: 275px;
     }
-}
 
+}
