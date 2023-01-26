@@ -439,6 +439,18 @@ label {
     background: #fafafa;
 }
 
+#pictures {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: .2rem;
+}
+
+#pictures > img {
+width: 100%;
+border-radius: 8px;
+}
+
 @media screen and (max-width:1390px) {
 
     .language-guide {
@@ -629,5 +641,13 @@ label {
     footer {
         height: 275px;
     }
+
+}
+
+@media screen and (max-width:1050px) {
+
+#pictures {
+    column-count: 2;
+}
 
 }
