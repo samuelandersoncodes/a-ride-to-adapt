@@ -24,6 +24,7 @@ h1 {
     float: left;
     font-size: 250%;
     margin-left: 10px;
+    padding-right: 1rem;
 }
 
 #menu {
@@ -43,7 +44,7 @@ h1 {
     background: url(../images/horseride.jpg) center center;
     background-size: cover;
     background-color: #262625;
-    height: 550px;
+    height: 35em;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -346,7 +347,7 @@ footer {
     margin: 0;
     height: 780px;
     clear: both;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 #about-background p {
@@ -358,9 +359,9 @@ footer {
 
 #about-background div {
     background: #2626257a;
-    min-height: 780px;
+    height: 780px;
     width: auto;
-    line-height: 40px;
+    line-height: 2.5rem;
     padding: 10px 20px 2px;
     text-align: justify;
     z-index: 2;
@@ -379,7 +380,7 @@ footer {
     background: #4088da57 url(../images/beach.jpg) round;
     min-height: 800px;
     width: auto;
-    padding: 20px 0 5px 30px;
+    padding: 20px 10px 30px;
     margin-top: 15px;
 }
 
@@ -446,9 +447,9 @@ label {
     column-gap: .2rem;
 }
 
-#pictures > img {
-width: 100%;
-border-radius: 8px;
+#pictures>img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 @media screen and (max-width:1390px) {
@@ -493,6 +494,7 @@ border-radius: 8px;
         height: 330px;
         width: 26%;
     }
+
 }
 
 @media screen and (max-width:855px) {
@@ -517,6 +519,7 @@ border-radius: 8px;
         width: 26%;
         padding-left: 15px;
     }
+
 }
 
 
@@ -567,6 +570,10 @@ border-radius: 8px;
 
     #activities h6 {
         margin-top: 45px;
+    }
+
+    #join-us {
+        height: 350px;
     }
 
 }
@@ -642,12 +649,25 @@ border-radius: 8px;
         height: 275px;
     }
 
+    #join-us {
+        height: 280px;
+    }
+
 }
 
 @media screen and (max-width:1050px) {
 
-#pictures {
-    column-count: 2;
-}
+    #pictures {
+        column-count: 2;
+    }
 
 }
+
+@media screen and (max-width:700px) {
+
+    #pictures {
+        column-count: 1;
+    }
+
+}
+
