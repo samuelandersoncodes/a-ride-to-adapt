@@ -169,6 +169,23 @@ h1 {
     min-height: 0;
 }
 
+.contact-form {
+   clear: both;
+    text-align: center;
+    margin: 6em 0 9.3em;
+    padding-top: 7rem;
+    line-height: 2.5rem;
+}
+
+.contact-form > h1 {
+padding-bottom: .5rem;
+}
+
+.contact-form > p {
+font-size: 110%;
+font-weight: bold;
+}
+
 @keyframes cycle-zoom {
 
     from {
