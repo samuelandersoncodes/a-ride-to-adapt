@@ -53,6 +53,18 @@ h1 {
     animation-fill-mode: forwards;
 }
 
+@keyframes cycle-zoom {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
 #cover-text {
 
     background: #2626253d;
@@ -186,18 +198,6 @@ font-size: 110%;
 font-weight: bold;
 }
 
-@keyframes cycle-zoom {
-
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-
-}
-
 nav ul {
     list-style: none;
     float: right;
@@ -301,11 +301,15 @@ nav a:hover::before {
 }
 
 footer {
-    background-color: rgba(105, 90, 205, 0.377);
+    background-color: rgba(52, 29, 199, 0.363);
     height: 250px;
     margin: 0;
     clear: both;
     padding-top: 30px;
+}
+
+.inner-footer {
+    margin: 0 1rem 0;
 }
 
 #contact {
@@ -450,10 +454,6 @@ label {
 ::placeholder {
     color: #fafafa;
     text-align: center;
-}
-
-#about-form-footer {
-    background: #fafafa;
 }
 
 #pictures {
@@ -662,7 +662,7 @@ label {
     }
 
     footer {
-        height: 275px;
+        height: 20rem;
     }
 
     #join-us {
