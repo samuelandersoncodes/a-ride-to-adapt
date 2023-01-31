@@ -360,11 +360,10 @@ footer {
 }
 
 #about-background {
-    background: #262625 url(../images/about-image.jpg) top center no-repeat;
+    background: #262625 url(../images/about-image.webp) top center ;
     margin: 0;
-    height: 780px;
+    height: auto;
     clear: both;
-    overflow-y: scroll;
 }
 
 #about-background p {
@@ -376,7 +375,7 @@ footer {
 
 #about-background div {
     background: #2626257a;
-    height: 780px;
+    height: auto;
     width: auto;
     line-height: 2.5rem;
     padding: 10px 20px 2px;
@@ -394,7 +393,7 @@ footer {
 
 #join-us {
     clear: both;
-    background: #4088da57 url(../images/beach.jpg) round;
+    background: #4088da57 url(../images/join.webp) round;
     min-height: 800px;
     width: auto;
     padding: 20px 10px 30px;
