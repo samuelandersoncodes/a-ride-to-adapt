@@ -301,7 +301,7 @@ nav a:hover::before {
 }
 
 footer {
-    background-color: rgba(52, 29, 199, 0.363);
+    background-color: #fafafa;
     height: 250px;
     margin: 0;
     clear: both;
@@ -309,7 +309,8 @@ footer {
 }
 
 .inner-footer {
-    margin: 0 1rem 0;
+    margin: 0 .8rem 0;
+    
 }
 
 #contact {
@@ -325,7 +326,7 @@ footer {
 #social-network li {
     display: inline-block;
     letter-spacing: 65px;
-
+   
 }
 
 #social-network {
@@ -333,6 +334,7 @@ footer {
     color: #26262544;
     font-size: 140%;
     margin-bottom: 25px;
+    padding-left: 3.5rem;
 }
 
 #social-network i {
@@ -661,10 +663,6 @@ label {
         word-spacing: .5px;
     }
 
-    footer {
-        height: 20rem;
-    }
-
     #join-us {
         height: 280px;
     }
@@ -686,4 +684,51 @@ label {
     }
 
 }
+
+@media screen and (max-width:640px) {
+
+    footer {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+footer {
+    height: 22rem;
+}
+
+.inner-footer p li {
+    font-size: 50%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.inner-footer {
+    line-height: 6px;
+    text-align: center;
+   
+}
+
+#contact {
+    margin-top: .4rem;
+}
+
+#footer-email {
+    display: block;
+}
+
+#footer-email li a {
+    font-size: 30%;
+}
+
+#social-network {
+    display: flex;
+    flex: row wrap;
+    text-align: center;
+    padding-left: .4rem;
+}
+
+}
+
 
