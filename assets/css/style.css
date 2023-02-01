@@ -48,7 +48,6 @@ h1 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    /* padding-right: 2rem; */
     animation-name: cycle-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -148,7 +147,7 @@ h1 {
     align-items: center;
     justify-content: safe;
     flex-direction: column;
-    margin: 40px 0 5px 35px;
+    margin: 40px 3px 5px 35px;
     font-weight: bold;
     z-index: 2;
     line-height: 45px;
@@ -168,7 +167,7 @@ h1 {
     align-items: center;
     justify-content: safe;
     flex-direction: column;
-    margin: 40px 35px 10px 0;
+    margin: 40px 35px 10px 3px;
     font-weight: bold;
     z-index: 2;
     line-height: 45px;
@@ -176,6 +175,10 @@ h1 {
     padding: 5px 5px 6px 30px;
     color: white;
 
+}
+
+.language-guide {
+    border-radius: 6px;
 }
 
 .reason>p {
@@ -501,11 +504,11 @@ label {
     }
 
     .language {
-        margin: 20px 0 0 1px;
+        margin: 20px 2px 0 1px;
     }
 
     .guide {
-        margin: 20px 1px 0 0;
+        margin: 20px 1px 0 2px;
         line-height: 32px;
     }
 
@@ -566,7 +569,7 @@ label {
         padding: 5px;
         border-radius: 4px;
     }
-
+  
 }
 
 @media screen and (max-width:899px) {
@@ -691,6 +694,7 @@ label {
     footer {
         height: 20rem;
     }
+
 }
 
 @media screen and (max-width:400px) {
@@ -770,5 +774,21 @@ footer {
         margin: 0 1px;
         color: #262625;
      }
+}
+
+@media screen and (max-width:460px) { 
+
+    .language-guide {
+    height: fit-content;
+}
+
+    .issues {
+    line-height: 26px;
+}
+
+#flexbox-container {
+    height: max-content;
+}
+    
 }
 
