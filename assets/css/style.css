@@ -68,7 +68,7 @@ h1 {
 
 #cover-text {
 
-    background: #2626253d;
+    background: #26262559;
     color: #fafafa;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -744,3 +744,31 @@ footer {
     }
 
 }
+
+@media screen and (max-width:410px) { 
+
+    #logo {
+        font-weight: bolder;
+        font-size: 210%;
+    }
+
+    #menu {
+       display: block;
+       padding: 0 .2rem;
+    }
+
+    #menu li {
+        padding: 2px 1px;
+        margin: 0 1px;
+    }
+
+     #menu li a {
+        letter-spacing:.5px;
+        font-size: 100%;
+        font-weight: bolder;
+        padding: 0 .5px;
+        margin: 0 1px;
+        color: #262625;
+     }
+}
+
