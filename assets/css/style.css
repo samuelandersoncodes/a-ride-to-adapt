@@ -48,6 +48,7 @@ h1 {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    /* padding-right: 2rem; */
     animation-name: cycle-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -74,11 +75,11 @@ h1 {
     font-weight: bolder;
     font-size: 140%;
     letter-spacing: 5px;
-    position: absolute;
-    width: 400px;
-    height: 130px;
-    bottom: 190px;
-    right: 20px;
+    position: relative;
+    width: 28rem;
+    height: 9rem;
+    bottom: 12rem;
+    margin: 0 2rem 0;
     border-radius: 5px;
     z-index: 3;
 }
@@ -731,4 +732,15 @@ footer {
 
 }
 
+@media screen and (max-width:490px) { 
 
+    #cover-text {
+        height: auto;
+        width: 70%;
+        font-size: 100%;
+        line-height: 28px;
+        padding-left: 1rem;
+        left:2rem;
+    }
+
+}
