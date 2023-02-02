@@ -315,7 +315,6 @@ footer {
 
 .inner-footer {
     margin: 0 .8rem 0;
-
 }
 
 #contact {
@@ -331,7 +330,6 @@ footer {
 #social-network li {
     display: inline-block;
     letter-spacing: 65px;
-
 }
 
 #social-network {
@@ -396,7 +394,7 @@ footer {
 }
 
 #join h2 {
-    color: #fafafa;
+    color: #262625;
     font-family: 'Roboto', sans-serif;
     font-size: 140%;
     font-weight: bolder;
@@ -405,36 +403,37 @@ footer {
 
 #join-us {
     clear: both;
-    background: #4088da57 url(../images/join.webp) round;
-    min-height: 800px;
+    background: #262625f1 url(../images/join.webp) top center no-repeat;
+    min-height: 44em;
     width: auto;
-    padding: 20px 10px 30px;
+    padding: 2rem 1rem;
     margin-top: 15px;
 }
 
 #join {
-    background: #2626255b;
-    height: 520px;
-    width: 430px;
+    background: #fafafaa1;
+    height: max-content;
+    max-width: 25rem;
     line-height: 24px;
     margin: 60px 35px 30px 35px;
     text-align: center;
-    padding-top: 15px;
+    padding: 15px 0 14px;
     border-radius: 4px;
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
+    background: #fafafaec transparent;
+    color: black;
     width: 90%;
     height: 25px;
     margin: 5px 0 20px;
-    border: 1px solid #fafafa;
+    border: 1.5px solid #262625;
     border-radius: 2px;
+    padding-left: 10px;
 }
 
 .text-input:hover {
-    border-color: #2626257c;
+    border: 1.5px solid #26262586;
 }
 
 .join-button {
@@ -443,25 +442,20 @@ footer {
     padding: 15px 30px;
     text-align: center;
     font-size: 120%;
-    background-color: #fafafa;
-    color: #262625;
+    background-color: #262625;
+    color: #fafafa;
     display: inline-block;
 }
 
 .join-button:hover {
-    background-color: #2626258c;
+    background-color: #262625c4;
     color: #fafafa;
 }
 
 label {
-    color: #fafafa;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
     font-size: 120%;
-}
-
-::placeholder {
-    color: #fafafa;
-    text-align: center;
 }
 
 #pictures {
@@ -594,10 +588,6 @@ label {
 
     #activities h6 {
         margin-top: 45px;
-    }
-
-    #join-us {
-        height: 350px;
     }
 
 }
