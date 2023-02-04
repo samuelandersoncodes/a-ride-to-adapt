@@ -856,3 +856,12 @@ img:hover {
     }
 
 }
+
+@media screen and (max-width:486px) {
+
+    #about-background div {
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+}
