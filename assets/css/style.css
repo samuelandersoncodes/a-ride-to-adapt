@@ -373,24 +373,22 @@ footer {
     background: #262625 url(../images/about-image.webp) top center;
     margin: 0;
     height: auto;
-    clear: both;
+    width: auto;
+    line-height: 2.5rem;
+    padding: 14px 16px 12px;
+    text-align: justify;
+    border-radius: 8px;
+    z-index: 1;
 }
 
 #about-background p {
+    background: #26262588;
     color: #fafafa;
     font-size: 160%;
     font-weight: bolder;
+    border-radius: 7px;
+    padding: 4px 8px;
     z-index: 3;
-}
-
-#about-background div {
-    background: #2626257a;
-    height: auto;
-    width: auto;
-    line-height: 2.5rem;
-    padding: 10px 20px 2px;
-    text-align: justify;
-    z-index: 2;
 }
 
 #join h2 {
@@ -463,7 +461,7 @@ label {
     padding: 0;
 }
 
-#gallery-title {
+.title {
     clear: both;
     font-family: 'Roboto', sans-serif;
     font-size: 110%;
@@ -859,7 +857,7 @@ img:hover {
 
 @media screen and (max-width:486px) {
 
-    #about-background div {
+    #about-background {
         line-height: 2rem;
         text-align: center;
     }
