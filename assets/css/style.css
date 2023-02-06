@@ -351,7 +351,7 @@ footer {
     margin-bottom: 5px;
 }
 
-#map {
+iframe {
     height: 300px;
     width: 100%;
     margin: 0;
