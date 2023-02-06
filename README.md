@@ -345,8 +345,29 @@ Actual:
 
 Behavior was exactly as expected. 
 
+### Validator Testing 
+
+* HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Home HTML Validator Results](docs/testing_images/w3c_validation_home.jpg)
+
+![About HTML Validator Results](docs/testing_images/w3c_validation_about.jpg)
+
+![Gallery HTML Validator Results](docs/testing_images/w3c_validation_gallery.jpg)
+
+![Join-us HTML Validator Results](docs/testing_images/w3c_validation_join_us.jpg)
+
+![Contact HTML Validator Results](docs/testing_images/w3c_validation_contact.jpg)
+
+* CSS
+  - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org)
+  
+![CSS Validator Results](docs/testing_images/jigsaw_w3c_validation_stylesheet.jpg)
+
+
 ### Unfixed Bugs
-The website worked on all devices, screen sizes and orientation. But on an Iphone 6S plus, the navbar has its join-us page link not being in line with the rest as expected. I tried to use media query to resolve it but it still remained the same. I am still researching on how to resolve this in a future release.
+The website worked on all devices, screen sizes and orientation. But on one particular Iphone 6S plus during the testing, the navbar has its join-us page link not being in line with the rest as expected. I checked on my media query and responsiveness adjustment again. Everything was perfect. After testing it on another phone of the same model, the site worked as expected. I have no clue what the bug might be. I am still researching on how to resolve this in a future release.
 
 ## Deployment
 
@@ -377,6 +398,38 @@ The following git commands were used throughout the development to push code to 
   - A live link will be displayed when published successfully. 
 
 This is the live link ; https://samuelandersoncodes.github.io/a-ride-to-adapt/ 
+
+## Credits 
+
+* [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
+  * I appreciate Code institute's support and their gitpod template.
+
+* [Font Awesome](https://fontawesome.com/icons)
+    * Code was used from this website to create the social media icons in the footer and the bycycle icon at the end of the header on the form of the Join-us page.
+    * Styles were changed to suit styling on the Website.
+
+* [Google Fonts](https://fonts.google.com/)
+    * The fonts (Roboto and Roboto Mono) used on this website were imported from google fonts.
+
+* [Youtube Mockup Generation Tutorial](https://www.youtube.com/watch?v=TZDICT1Nw40&t=422s)
+    * The mockups in the readme file were inspired by this video encouraging the use of techsini.com.
+<br><br>
+* Persons
+    * A big appreciation to Gareth Mcgirr who recommended flexbox to me for a better responsive website.
+    All images were optimized with inspiration his advise on using webp instead of jpg files. I converted my jpg images into webp file to optimize my website perfomance.
+
+    * I thank Olena Olkhovyk for inspiring me and giving me ideas to add a gallery page.
+
+### Content 
+
+All the content with the exception of those listed in the Media and credits sections of this document were originaly made by Samuel Anderson.
+
+### Media
+  * The images in the gallery and backgroud images were downloaded from unsplash, pixabay, istock and splitshire. 
+  * The Map at the Our Center and Meeting Place was imported from google maps.
+  * The social media icons in the footer and the bycycle icon at the end of the header on the form of the Join-us page were imported from Font Awesome.
+
+
 
 
 
