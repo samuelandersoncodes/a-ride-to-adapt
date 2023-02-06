@@ -3,7 +3,7 @@
 > A Ride to Adapt is a website that helps foreigners to easily adapt to their new environment in Berlin, Germany. The website seeks to bring together foreigners who find it difficult to adapt through sporting activities like cycling, hiking, table and long tennis, motorsports and surfing. This is to bring them the feeling of belongingness even in a new environment and also have fun while they excercise to keep them healthy.
 
 >The site is very useful for foreigners in Berlin to have a sense of association and helps users to quickly find solution to adpatation problems ranging from immigration to housing by dialing our hotline.
-View the live website [here] (https://samuelandersoncodes.github.io/portfolio-project-one/)
+View the live website [here] (https://samuelandersoncodes.github.io/a-ride-to-adapt/)
 
 ![mockup](docs/readme_images/mockup.jpg)
 
@@ -27,7 +27,7 @@ View the live website [here] (https://samuelandersoncodes.github.io/portfolio-pr
 ![landing page image](docs/readme_images/landing_page.JPG)
 
 * The Reasons section
-    * This section informs the user on the benefits of joining an international community not only in the area of sports and recreation 
+    * This section informs the user on the benefits of joining the international community not only in the area of sports and recreation 
       but also solve their adaptation-related promlems. 
     * This, coupled with the sense of belongingness should encourage the user to consider joining the international community.
 
@@ -45,15 +45,15 @@ View the live website [here] (https://samuelandersoncodes.github.io/portfolio-pr
 ![Center and Meeting place](docs/readme_images/map.JPG)
 
 * Footer
-    * The footer has links to the relevant social media hanldles. These links will open to a new tab to allow easy navigation for the   user.
+    * The footer has links to the relevant social media hanldles. These links will open in a new tab to allow easy navigation for the   user.
     * The footer also includes two hotlines and an email that will enhance a faster communication form for the user in cases of urgency.
-    * The footer is identical and consistent on all four page making it easy for the user to use no matter the page the move to. 
+    * The footer is identical and consistent on all four pages making it easy for the user to use no matter the page they move to. 
 
 ![Footer](docs/readme_images/footer.JPG)
 
 * The About page
-    *This page informs the user on exactly how and when this international community was formed and its operations.
-    *It also talks about the benefins and ideology of the community in details.
+    * This page informs the user on exactly how and when this international community was formed and its operations.
+    * It also talks about the benefits and ideology of the community in details.
 
 ![About page](docs/readme_images/about.jpg)
 
@@ -70,13 +70,14 @@ View the live website [here] (https://samuelandersoncodes.github.io/portfolio-pr
 
         * First Name (required, type=text)
         * Last Name (required, type=text)
-        * Email (required, type=email)
+        * E-mail (required, type=email)
         * Sport Type (required, type=text)
-        * Membership type(required, type=radio)
+        * Membership type (required, type=radio)
 
     * On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.
-    * This will allow the user to contact if they have any queiries about travel destinations, charity events, club information or  
-      maybe to join him on some of his travels.
+    * In cases of urgency, a hotline is provided on the contact confirmation page that shows after a successful form submission. 
+    * These will also allow the user to contact us if they have any enqueiries about our activities and services.
+    
 
 ![Join-us](docs/readme_images/join_us.jpg)
 
@@ -167,14 +168,18 @@ The website was opened on the following devices and no responsive issues were fo
 - Iphone 12
 - Iphone 13
 - Iphone 6S plus
-- Xiomi Redme 11pro
-- Samsung galaxy 20
+- Xiomi Redme 11 pro
+- Samsung A 12
+- Samsung Galaxy 20
+- Samsung Galaxy Tab S7
+- Infinix Hot 10
 - Infinix Hot 12
+- Asus Sonicmaster
 - Hp EliteBook 8440p
 
 ### Accessibility
 
-[Wave Accessibility](https://wave.webaim.org/) tool was used throughout the development process and for the final testing of the deployed website to test for aid accessibility.
+[Wave Accessibility](https://wave.webaim.org/report#/https://samuelandersoncodes.github.io/a-ride-to-adapt/) tool was used throughout the development process and for the final testing of the deployed website to test for aid accessibility.
 
 The test was aimed at ensuring the following criteria were met:
 
@@ -183,10 +188,10 @@ The test was aimed at ensuring the following criteria were met:
   contrast-minimum.html)
 - Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
 - All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
-- All non-textual content had alternative text or titles so descriptions are read out to screen readers.
+- All non-textual content had alternative text or titles so that descriptions can be read out to screen readers.
 - HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
-- WCAG 2.1 Coding best practices well followed.
+- WCAG 2.1 Coding best practices are well followed.
 
 Manual tests were also performed to ensure the website was accessible as possible.
 
@@ -225,12 +230,12 @@ Steps to test:
 
 1. Navigate to [A Ride to Adapt - Home Page]( https://samuelandersoncodes.github.io/a-ride-to-adapt/)
 2. Click on Join-us in the navbar and input the following data:
-   - First Name: Samuel
-   - Last Name: Anderson
-   - Email: aridetoadapt@berlin.de
-   - Sport type: cycling
+   - First Name : Samuel
+   - Last Name : Anderson
+   - E-mail : aridetoadapt@berlin.de
+   - Sport type : cycling
    - Membership choice : permanent membership
-3. Click ride with us
+3. Click on the "ride with us" button. 
 4. User will be redirected to contact.html. Thus, Contact Form Recieved page.
 
 Expected:
@@ -252,7 +257,7 @@ Steps to test:
    - Email: (missing)
    - Sport type: cycling
    - Membership choice : permanent membership
-3. Click ride with us
+3. Click on the "ride with us" button.
 4. User will be prompted by a (please fill out this field) message.
 
 Expected:
@@ -264,7 +269,7 @@ Actual:
 Website behaved as expected, the error alert message was displayed and the form did not submit.
 
 * Scenario Two (Repeated for other fields)
-  *Scenario Two was repeated for the;
+  * Scenario Two was repeated for the;
   - First Name
   - Last Name
   - Sport Type 
@@ -328,7 +333,7 @@ Actual:
 
 Behavior was as expected and the window presents the user with the options of available applications to call from or send the number to their phone through the browser.
 
-** Our Center and Meeting place Section Map**
+**Our Center and Meeting place Section Map**
 
 Testing was conducted on the map right above the footer to ensure that it redirects the user to google maps in a new tab.
 
@@ -395,7 +400,9 @@ The following git commands were used throughout the development to push code to 
   - From the menu on the left select 'Pages'
   - From the source section drop-down menu, select the main branch.
   - Click 'Save'
-  - A live link will be displayed when published successfully. 
+  - Refresh the page after a moment.
+  - A live link will be displayed when published successfully.
+  
 
 This is the live link ; https://samuelandersoncodes.github.io/a-ride-to-adapt/ 
 
@@ -428,6 +435,7 @@ All the content with the exception of those listed in the Media and credits sect
   * The images in the gallery and backgroud images were downloaded from unsplash, pixabay, istock and splitshire. 
   * The Map at the Our Center and Meeting Place was imported from google maps.
   * The social media icons in the footer and the bycycle icon at the end of the header on the form of the Join-us page were imported from Font Awesome.
+  * The images were converted from jpg to webp with the use of https://pixlr.com/x/ , https://cloudconvert.com/jpg-to-webp and https://convertio.co/jpg-webp/
 
 
 
