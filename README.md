@@ -45,9 +45,11 @@ View the live website [here] (https://samuelandersoncodes.github.io/a-ride-to-ad
 ![Center and Meeting place](docs/readme_images/map.JPG)
 
 * Footer
-    * The footer has links to the relevant social media hanldles. These links will open in a new tab to allow easy navigation for the   user.
-    * The footer also includes two hotlines and an email that will enhance a faster communication form for the user in cases of urgency.
-    * The footer is identical and consistent on all four pages making it easy for the user to use no matter the page they move to. 
+    * The footer has links to the relevant social media hanldles that makes it possible for users to stay connected and updated. 
+    * These links will open in a new tab to allow easy navigation for the   user.
+    * The footer also includes two hotlines and an email that will enhance faster communication for the user in cases of urgency.
+    * The footer is identical and consistent on all four pages making it easy for the user to identify no matter the page they move to and also helps them not to get lost in case they are swichting between multiple sites.
+    * The icons in the footer has hover effects that prompts the user on which exact social media link they are about to click on.   
 
 ![Footer](docs/readme_images/footer.JPG)
 

@@ -326,6 +326,10 @@ footer {
     letter-spacing: 65px;
 }
 
+#social-network i:hover {
+   color: #2626258f;
+}
+
 #social-network {
     text-align: center;
     color: #26262544;
