@@ -214,7 +214,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Navigation Link | Page to Load    |
 | --------------- | --------------- |
 | Home            | index.html      |
-| About           | abot.html       |
+| About           | about.html       |
 | Gallery         | gallery.html    |
 | Join-us         | join-us.html    |
 
@@ -434,7 +434,7 @@ All the content with the exception of those listed in the Media and credits sect
 ### Media
   * The images in the gallery and backgroud images were downloaded from unsplash, pixabay, istock and splitshire. 
   * The Map at the Our Center and Meeting Place was imported from google maps.
-  * The social media icons in the footer and the bycycle icon at the end of the header on the form of the Join-us page were imported from Font Awesome.
+  * The social media icons in the footer and the bicycle icon at the end of the header on the form of the Join-us page were imported from Font Awesome.
   * The images were converted from jpg to webp with the use of https://pixlr.com/x/ , https://cloudconvert.com/jpg-to-webp and https://convertio.co/jpg-webp/
 
 
