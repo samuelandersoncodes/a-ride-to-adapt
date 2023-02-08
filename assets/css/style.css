@@ -539,7 +539,6 @@ img:hover {
 }
 
 /* Media queries */
-
 /* Media query for screen sizes 1090px and above */
 @media screen and (max-width:1390px) {
 
@@ -611,7 +610,6 @@ img:hover {
     }
 
 }
-
 
 @media screen and (max-width:757px) {
 
