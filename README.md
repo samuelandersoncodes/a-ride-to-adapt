@@ -12,8 +12,8 @@ View the live website [here] (https://samuelandersoncodes.github.io/a-ride-to-ad
 ### Existing Features
 
 * Navigation bar
-    * Featured on all four pages, the full responsive navigation bar containing links to the Logo, Home, About, Gallery and Join-us 
-      pages and is identical in each page to allow for easy navigation. 
+    * The website features on all four pages, a full responsive navigation bar containing links to the Logo, Home, About, Gallery and Join-us 
+      pages and is identical on each page to allow for easy navigation. 
     * This will allow users to easily navigate between the pages within the site on all screen sizes without the need for a 'back' 
       button.
 
@@ -28,7 +28,7 @@ View the live website [here] (https://samuelandersoncodes.github.io/a-ride-to-ad
 
 * The Reasons section
     * This section informs the user on the benefits of joining the international community not only in the area of sports and recreation 
-      but also solve their adaptation-related promlems. 
+      but also solve their adaptation-related problems. 
     * This, coupled with the sense of belongingness should encourage the user to consider joining the international community.
 
 ![Reasons section](docs/readme_images/reasons_section.JPG)
@@ -178,6 +178,7 @@ The website was opened on the following devices and no responsive issues were fo
 - Infinix Hot 12
 - Asus Sonicmaster
 - Hp EliteBook 8440p
+- Hp laptop 14s
 
 ### Accessibility
 
@@ -374,13 +375,13 @@ Behavior was exactly as expected.
 
 
 ### Unfixed Bugs
-The website worked on all devices, screen sizes and orientation. But on one particular Iphone 6S plus during the testing, the navbar has its join-us page link not being in line with the rest as expected. I checked on my media query and responsiveness adjustment again. Everything was perfect. After testing it on another phone of the same model, the site worked as expected. I have no clue what the bug might be. I am still researching on how to resolve this in a future release.
+The website worked correctly on all devices, screen sizes and orientation. But on one particular Iphone 6S plus during the testing, the navbar has its join-us part dropping down a bit and not being in line with the rest as expected. I checked on my media query and responsiveness adjustment again. Everything was perfect. After testing it on another phone of the same model, the site worked as expected. Even though this could be an issue with that particular device, I am still researching on how to resolve this in a future release.
 
 ## Deployment
 
 ### Version Control
 
-The site was created using the Visual Studio code editor on Gitpod and pushed to github to the remote repository ‘a-ride-to-adapt’.
+The site was created using the Gitpod workspace and pushed to github to the remote repository ‘a-ride-to-adapt’.
 
 The following git commands were used throughout the development to push code to the remote repository:
 
